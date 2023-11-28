@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center">Song Title:</h1>
+    <div class="center">
+        <button onclick="typeWriter()">Click Me!</button>
+    </div>
+   
+    <p id="demo" class="text-center"></p>
+
+    <div>
+        <iframe width="1263" height="480" src="https://www.youtube.com/embed/VwPUKk9wf8w" title="04. Black Horse and a Cherry Tree - Eye to the Telescope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script src="~/js/site.js"></script>
+</body>
